@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0);
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+}
+
+h1{
+    margin-top: 0;
+    font-size: 48px;
+    color: yellow;
+}
+
+h2{
+    font-size: 32px;
+    margin-top: 0;
+}
+
+h2,
+h3,
+h5,
+p{
+    color: yellow;
+}
+
+p{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.grid {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    border: solid rgb(255, 255, 255);
+    background-color: blue;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+
+.pac-dot {
+    background-color: rgb(250, 246, 2);
+    border: 6px solid blue;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: rgb(2, 2, 2);
+}
+
+.power-pellet {
+    background-color: rgb(250, 246, 2);
+    border: 3px solid blue;
+    box-sizing: border-box;
+    border-radius: 7.5px;
+}
+
+.pacman {
+    background-color: rgba(238, 255, 0, 0.877)  ;
+    border-radius: 7.5px;
+    border: none;
+    clip-path: polygon(50% 0%, 100% 18%, 55% 51%, 100% 82%, 51% 100%, 0 82%, 0 19%);
+
+}
+
+.blinky {
+    background-color: red;
+    border: none;
+    clip-path: polygon(53% 0, 85% 9%, 100% 34%, 100% 100%, 78% 73%, 54% 100%, 32% 73%, 0 100%, 0 35%, 16% 8%);
+
+}
+
+.pinky {
+    background-color: pink;
+    border: none;
+    clip-path: polygon(53% 0, 85% 9%, 100% 34%, 100% 100%, 78% 73%, 54% 100%, 32% 73%, 0 100%, 0 35%, 16% 8%);
+
+}
+
+.inky {
+    background-color:aqua;
+    border: none;
+    clip-path: polygon(53% 0, 85% 9%, 100% 34%, 100% 100%, 78% 73%, 54% 100%, 32% 73%, 0 100%, 0 35%, 16% 8%);
+
+}
+
+.clyde {
+    background-color: orange;
+    border: none;
+    clip-path: polygon(53% 0, 85% 9%, 100% 34%, 100% 100%, 78% 73%, 54% 100%, 32% 73%, 0 100%, 0 35%, 16% 8%);
+
+}
+
+.scared-ghost{
+    background-color: aquamarine;
+    border: none;
+}
+
+.win,
+.game-over{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(3, 3, 3);
+    padding-top: 30%;
+    display: none;
+}
